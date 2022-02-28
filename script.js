@@ -20,7 +20,6 @@
 //   console.log(typeof(item));
 // }));
 
-
 // let people =[
 //   {
 //     name: "Peter",
@@ -62,14 +61,12 @@
 //   lastname.textContent = item.lastname;
 //   age.textContent = item.age;
 
-  
 //   divElement.append(name);
 //   divElement.append(lastname);
 //   divElement.append(age);
 //   container.append(divElement);
 // });
 
-
 // let container = document.querySelector('#container');
 // people.forEach((item) => {
 //   let person = document.createElement("div");
@@ -82,36 +79,42 @@
 //   container.append(person);
 // });
 
-
-let people =[
+let company = [
   {
     name: "Peter",
-    resume: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, expedita!",
-    profession: "front-end"
+    resume:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, expedita!",
+    profession: "front-end",
   },
   {
     name: "Lasley",
- 
-    resume: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, expedita!",
-    profession: "java"
+
+    resume:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, expedita!",
+    profession: "java",
   },
   {
     name: "Sam",
- 
-    resume: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, expedita!",
-    profession: "3D model"
-  }
- 
-]
 
-// let container = document.querySelector('#container');
-// people.forEach((item) => {
-//   let person = document.createElement("div");
-//   let name = `${item.name}, `;
-//   let lastname = `${item.lastname }, `;
-//   let age = item.age;
-//   person.append(name);
-//   person.append(lastname);
-//   person.append(age);
-//   container.append(person);
-// });
+    resume:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, expedita!",
+    profession: "3D model",
+  },
+]
+// не правильно 
+let container = document.querySelector("#container");
+company.forEach((item) => {
+  let person = document.createElement("div");
+  let name = document.createElement("h1");
+  let resume = document.createElement("p");
+  let profession = document.createElement("span");
+
+  h1.textContent = item.name;
+  p.textContent = item.resume;
+  span.textContent = item.profession;
+
+  person.append(name);
+  person.append(resume);
+  person.append(profession);
+  container.append(person);
+});
