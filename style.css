@@ -1,6 +1,22 @@
+* {
+  box-sizing: border-box;
+}
 img {
-  width: 30%;
+  max-width: 200px;
+  max-height: 300px;
+  text-align: center;
+  border-radius: 100%;
 }
 main {
   display: flex;
+  
+}
+h2 {
+  text-align: center;
+}
+div {
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 20px;
 }
