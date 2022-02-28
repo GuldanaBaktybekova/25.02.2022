@@ -21,33 +21,33 @@
 // }));
 
 
-let people =[
-  {
-    name: "Peter",
-    lastname: "Parker",
-    age: 34
-  },
-  {
-    name: "Lasley",
-    lastname: "Johnson",
-    age: 55
-  },
-  {
-    name: "Sam",
-    lastname: "Cruz",
-    age: 11
-  },
-  {
-    name: "Sadyr",
-    lastname: "Japarov",
-    age: 44
-  },
-  {
-    name: "Elon",
-    lastname: "Mask",
-    age: 51
-  }
-]
+// let people =[
+//   {
+//     name: "Peter",
+//     lastname: "Parker",
+//     age: 34
+//   },
+//   {
+//     name: "Lasley",
+//     lastname: "Johnson",
+//     age: 55
+//   },
+//   {
+//     name: "Sam",
+//     lastname: "Cruz",
+//     age: 11
+//   },
+//   {
+//     name: "Sadyr",
+//     lastname: "Japarov",
+//     age: 44
+//   },
+//   {
+//     name: "Elon",
+//     lastname: "Mask",
+//     age: 51
+//   }
+// ]
 
 //My work
 // let container = document.querySelector('#container');
@@ -70,14 +70,48 @@ let people =[
 // });
 
 
-let container = document.querySelector('#container');
-people.forEach((item) => {
-  let person = document.createElement("div");
-  let name = `${item.name}, `;
-  let lastname = `${item.lastname }, `;
-  let age = item.age;
-  person.append(name);
-  person.append(lastname);
-  person.append(age);
-  container.append(person);
-})
+// let container = document.querySelector('#container');
+// people.forEach((item) => {
+//   let person = document.createElement("div");
+//   let name = `${item.name}, `;
+//   let lastname = `${item.lastname }, `;
+//   let age = item.age;
+//   person.append(name);
+//   person.append(lastname);
+//   person.append(age);
+//   container.append(person);
+// });
+
+
+let people =[
+  {
+    name: "Peter",
+    resume: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, expedita!",
+    profession: "front-end"
+  },
+  {
+    name: "Lasley",
+ 
+    resume: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, expedita!",
+    profession: "java"
+  },
+  {
+    name: "Sam",
+ 
+    resume: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, expedita!",
+    profession: "3D model"
+  }
+ 
+]
+
+// let container = document.querySelector('#container');
+// people.forEach((item) => {
+//   let person = document.createElement("div");
+//   let name = `${item.name}, `;
+//   let lastname = `${item.lastname }, `;
+//   let age = item.age;
+//   person.append(name);
+//   person.append(lastname);
+//   person.append(age);
+//   container.append(person);
+// });
