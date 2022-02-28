@@ -153,3 +153,16 @@ let base = [
     resume: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt est, alias laboriosam voluptatem neque fugit quasi quos sit obcaecati magnam! Dolor dolorem consequuntur quas cupiditate eos voluptates quae nemo esse!"
   }
 ]
+
+let main = document.querySelector('main');
+base.forEach((item) => {
+  let person = document.createElement("div");
+  let name = document.createElement;
+ 
+  let age = item.age;
+
+  person.append(name);
+  person.append(lastname);
+  person.append(age);
+  container.append(person);
+});
