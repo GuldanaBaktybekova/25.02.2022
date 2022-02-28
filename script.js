@@ -133,23 +133,23 @@
 let base = [
   {
     name: "Ivan",
-    age: Age 22,
+    age: 22,
     img: "https://st2.depositphotos.com/4431055/7495/i/600/depositphotos_74950191-stock-photo-men-latin-american-and-hispanic.jpg",
-    profession: "It-specialist",
+    profession: "Profession: It-specialist",
     resume: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt est, alias laboriosam voluptatem neque fugit quasi quos sit obcaecati magnam! Dolor dolorem consequuntur quas cupiditate eos voluptates quae nemo esse!"
   },
   {
     name: "Clara",
-    age: Age 19,
+    age: 19,
     img: "https://bigpicture.ru/wp-content/uploads/2018/12/100faces00.jpg",
-    profession: "front-end specialist",
+    profession: "Profession:front-end specialist",
     resume: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt est, alias laboriosam voluptatem neque fugit quasi quos sit obcaecati magnam! Dolor dolorem consequuntur quas cupiditate eos voluptates quae nemo esse!"
   },
   {
     name: "Idai",
-    age: Age 24,
+    age: 24,
     img: "https://www.komarov.design/content/images/2020/11/image-4.jpeg",
-    profession: "It-specialist",
+    profession: "Profession: It-specialist",
     resume: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt est, alias laboriosam voluptatem neque fugit quasi quos sit obcaecati magnam! Dolor dolorem consequuntur quas cupiditate eos voluptates quae nemo esse!"
   }
 ]
