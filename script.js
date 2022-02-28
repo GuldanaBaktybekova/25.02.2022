@@ -157,9 +157,19 @@ let base = [
 let main = document.querySelector('main');
 base.forEach((item) => {
   let person = document.createElement("div");
-  let name = document.createElement;
- 
-  let age = item.age;
+  let img = document.createElement("img")
+
+  let name = document.createElement("h2");
+  let age = document.createElement("p");
+  let profession = document.createElement("h3");
+  let resume = document.createElement("p");
+
+  img.src = item.img;
+  name.textContent = item.name;
+  age.textContent = item.age;
+  profession.textContent = item.profession;
+  resume.textContent = item.resume;
+
 
   person.append(name);
   person.append(lastname);
