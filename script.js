@@ -49,12 +49,35 @@ let people =[
   }
 ]
 
+//My work
+// let container = document.querySelector('#container');
+// people.forEach((item) => {
+//   let divElement  = document.createElement('div')
 
-let div = document.querySelector('div');
-people.forEach(people => {
-  let div  = document.createElement('div')
-  let name = document.createElement('div');
-  let lastname = document.createElement('div');
-  let age = document.createElement('div');
+//   let name = document.createElement('div');
+//   let lastname = document.createElement('div');
+//   let age = document.createElement('div');
+
+//   name.textContent = item.name;
+//   lastname.textContent = item.lastname;
+//   age.textContent = item.age;
+
   
-});
+//   divElement.append(name);
+//   divElement.append(lastname);
+//   divElement.append(age);
+//   container.append(divElement);
+// });
+
+
+let container = document.querySelector('#container');
+people.forEach((item) => {
+  let person = document.createElement("div");
+  let name = `${item.name}, `;
+  let lastname = `${item.lastname }, `;
+  let age = item.age;
+  person.append(name);
+  person.append(lastname);
+  person.append(age);
+  container.append(person);
+})
