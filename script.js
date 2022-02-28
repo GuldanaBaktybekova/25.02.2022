@@ -133,21 +133,21 @@
 let base = [
   {
     name: "Ivan",
-    age: 22,
+    age: Age 22,
     img: "https://st2.depositphotos.com/4431055/7495/i/600/depositphotos_74950191-stock-photo-men-latin-american-and-hispanic.jpg",
     profession: "It-specialist",
     resume: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt est, alias laboriosam voluptatem neque fugit quasi quos sit obcaecati magnam! Dolor dolorem consequuntur quas cupiditate eos voluptates quae nemo esse!"
   },
   {
     name: "Clara",
-    age: 19,
+    age: Age 19,
     img: "https://bigpicture.ru/wp-content/uploads/2018/12/100faces00.jpg",
     profession: "front-end specialist",
     resume: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt est, alias laboriosam voluptatem neque fugit quasi quos sit obcaecati magnam! Dolor dolorem consequuntur quas cupiditate eos voluptates quae nemo esse!"
   },
   {
     name: "Idai",
-    age: 24,
+    age: Age 24,
     img: "https://www.komarov.design/content/images/2020/11/image-4.jpeg",
     profession: "It-specialist",
     resume: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt est, alias laboriosam voluptatem neque fugit quasi quos sit obcaecati magnam! Dolor dolorem consequuntur quas cupiditate eos voluptates quae nemo esse!"
@@ -171,8 +171,11 @@ base.forEach((item) => {
   resume.textContent = item.resume;
 
 
+  person.append(img);
   person.append(name);
-  person.append(lastname);
   person.append(age);
-  container.append(person);
+  person.append(profession);
+  person.append(resume);
+  main.append(person)
+
 });
